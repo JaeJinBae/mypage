@@ -32,7 +32,7 @@
 		float:right;
 	}
 	.dropdown_menu{
-		display:none;
+		display:none; 
 	}
 	.nav>li{
 		width:130px;
@@ -106,7 +106,6 @@
 		background:white;
 		z-index: 9;
 	 }
-	 
 	#headerWrap #headerMenu2 #mainNav>li:hover>.dropdown_menu{
 		display:block;
 	}
@@ -124,14 +123,14 @@
 		width:150px;
 		margin-top:25px;
 		position: fixed;
-		left:330px;
+		left:40%;
 	}
 	/* 사이드메뉴바 */
 	#btnMenu{
 		width:50px;
 		float:right;
 		margin-top:20px;
-		padding-right:35px;
+		/* padding-right:35px; */
 	}
 	.sidenav {
 	    height: 100%;
@@ -158,13 +157,10 @@
 	}
 	.sidenav .closebtn {
 		width:100%;
-		/* text-align:right; */
 		color:black;
 	    position: absolute;
 	    top: 0;
-	    right: 25px;
 	    font-size: 36px;
-	    margin-left: 50px;
 	    background: green;
 	}
 	
