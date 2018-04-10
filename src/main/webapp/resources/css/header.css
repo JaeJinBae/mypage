@@ -1,9 +1,10 @@
 @CHARSET "UTF-8";
-@media screen and ( min-width : 1380px ){
-	*{
+*{
 		margin:0;
 		padding:0;
 	}
+@media screen and ( min-width : 1380px ){
+	
 	#tabletLayout{
 		display: none;
 	}
@@ -110,60 +111,105 @@
 		display:block;
 	}
 }
-@media screen and (max-width:1379px){
+@media screen and (max-width:1379px) {
+	a{
+		text-decoration: none;
+		color:black;
+	}
 	#headerWrap{
 		display: none;
 	}
 	#tabletLayout{
 		display:block;
 		width:100%;
+		height:52px;
+		float:left;
 		margin:0 auto;
+		border-bottom:2px solid green;
+		text-align: center;
 	}
 	#tabletLayout #mainLogo{
-		width:150px;
-		margin-top:25px;
-		position: fixed;
-		left:40%;
+		width:120px;
+		margin-left:50px;
+		margin-top:10px;
+	}
+	ul>li{
+		list-style: none;
 	}
 	/* 사이드메뉴바 */
-	#btnMenu{
-		width:50px;
-		float:right;
-		margin-top:20px;
-		/* padding-right:35px; */
-	}
 	.sidenav {
 	    height: 100%;
 	    width: 0;
 	    position: fixed;
-	    z-index: 1;
+	    z-index: 9;
 	    top: 0;
 	    right: 0;
 	    background-color: #ffffff;
 	    overflow-x: hidden;
 	    transition: 0.5s;
-	    padding-top: 60px;
+	    margin-top:5px;
+	    border-left:1px solid black;
 	}
-	.sidenav a {
-	    padding: 8px 8px 8px 32px;
-	    text-decoration: none;
-	    font-size: 25px;
-	    color: #818181;
-	    display: block;
-	    transition: 0.3s;
+	#btnMenu{
+		width:50px;
+		float:right;
+		text-align:right;
+		margin-right:15px;
 	}
-	.sidenav a:hover {
-	    color: #f1f1f1;
+	.sidenav #sidenav_menu a:hover {
+	    color: green;
+	    font-weight:bold;
 	}
-	.sidenav .closebtn {
+	#navbarTop{
 		width:100%;
-		color:black;
-	    position: absolute;
-	    top: 0;
+		height:50px;
+		margin:0 auto;
+		background: #2A8B61;
+		padding-left:10px;
+	}
+	#navbarTop>li{
+		width:28%;
+		margin:0 auto;
+		float:left;
+		text-align:center;
+		display:inline;
+		line-height: 50px;
+	}
+	#navbarTop>li a{
+		color:white;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#sidenavBar #sidenav_menu{
+		width:100%;
+		padding:0;
+		margin:0 auto;
+		text-align: left;
+	}
+	#sidenavBar #sidenav_menu>li{
+		width:100%;
+		padding:15px;
+		
+		border-bottom:1px solid black;
+	} 
+	.sidenav>#navbarTop>.closebtn {
+		width:20px;
+		color:white;
 	    font-size: 36px;
 	    background: green;
+		margin-left:70px;
+	}
+	.dropdown_menu{
+		display:none;
+		width:100%;
+	}
+	#sidenavBar>#sidenav_menu>li:hover>.dropdown_menu{
+		display:block;
 	}
 	
+	#sidenavBar>#sidenav_menu>li>.dropdown_menu li{
+		padding-left:30px;
+	}
 }
 
 
