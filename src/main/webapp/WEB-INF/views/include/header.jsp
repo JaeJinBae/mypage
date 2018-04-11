@@ -6,22 +6,22 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/header.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/header.css?ver=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <style type="text/css">
 	
 </style> 
 <script type="text/javascript">
 	function openNav() {
-	    document.getElementById("sidenavBar").style.width = "250px";
+	    document.getElementById("sidenavBar").style.right = "0";
 	}
 	
 	function closeNav() {
-	    document.getElementById("sidenavBar").style.width = "0";
+	    document.getElementById("sidenavBar").style.right = "-250px";
 	}
 </script>
 </head>
-<body>
+<body> 
 	<div id="headerWrap">
 		<div id="headerMenu1">
 		    <ul class="nav">
@@ -163,6 +163,13 @@
 				</li>
 			</ul>
 		</div>
+	</div>
+	<!-- 퀵메뉴 -->
+	<div id="quickMenu">
+		<div class="qmenu"><a href="#">실시간 상담</a></div>
+		<div class="qmenu"><a href="#">온라인 상담</a></div>
+		<div class="qmenu"><a href="#">카카오톡 상담</a></div>
+		<div class="qmenu"><a href="#">비용 상담</a></div>
 	</div>
 </body>
 </html>
