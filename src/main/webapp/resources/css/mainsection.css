@@ -68,3 +68,27 @@
 	color:gray;
 }
 
+/* section2 */
+#mainsection2{
+	width:100%;
+	margin-bottom:70px;
+}
+#mainsection2 img{
+	width:100%;
+}
+
+/* section3 video */
+#mainsection3{
+	width:100%;
+	text-align: center;
+	margin-bottom:70px;
+}
+
+/* section4 */
+#mainsection4{
+	width:100%;
+	margin-bottom:70px;
+}
+#mainsection4 img{
+	width:100%;
+}

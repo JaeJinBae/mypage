@@ -115,5 +115,16 @@
 		</div>
 	</div>
 	
+	<div id="mainsection2">
+		<img src="${pageContext.request.contextPath}/resources/images/section2.PNG">
+	</div>
+	
+	<div id="mainsection3">
+		<iframe style="width:80%;" src="https://www.youtube.com/embed/6gFOs7rCJXU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+	
+	<div id="mainsection4">
+		<img src="${pageContext.request.contextPath}/resources/images/section4.png">
+	</div>
 </body>
 </html>
